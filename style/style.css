@@ -87,7 +87,7 @@ ul {
 }
 
 li {
-
+    padding: 7px 0 7px 0;
 }
 
 .main-list-item {
@@ -98,6 +98,7 @@ li {
 .downside-triangle {
     font-size: 9px;
     vertical-align: middle;
+    line-height: 1;
 }
 
 .round-checkbox {
@@ -111,11 +112,47 @@ li {
     text-align: center;
 }
 
-.editorial-box {
+.round-checkmark {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+    color: #ff5555;
+    border:1px solid #ff5555;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*small boxes layout*/
+
+.box {
     border-style: none;
-    background-color: #40a0ff;
     color: #fff;
     font-size: 9px;
     padding: 4px 6px 4px 6px;
     border-radius: 8px;
+}
+
+/*small boxes color*/
+
+.editorial {
+    background-color: #40a0ff;
+}
+.q1-goals {
+    background-color:#9d72e5;
+}
+.recruiting {
+    background-color:#65c1a9;
+}
+.mobile {
+    background-color:#f39f33;
+}
+.website {
+    background-color: #d863a1;
+}
+.sales {
+    background-color:#b1c927;
+}
+.editorial-1 {
+    background-color:#f39f33;
 }
