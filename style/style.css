@@ -44,6 +44,7 @@ body {
     display: inline;
     line-height: 70px;
     vertical-align: middle;
+    font-weight: 900;
 }
 
 /* NAVIGATION */ 
@@ -53,25 +54,26 @@ nav>.container {
     border-radius: 10px 10px 0 0;
 }
 
-.add-task,
-.add-section {
+.btn {
     padding: 7px 10px 7px 10px;
     text-align: center;
     vertical-align: middle;
     border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid;
+    text-decoration: none;
 }
 
-.add-task {
+.btn.add-task {
     background-color: #1f90fe;
-    border-color:  #1f90fe;
+    border-color: #1f90fe;
     color: #fff;
-    border-style: none;
 }
 
-.add-section {
+.btn.add-section {
     background-color: #fff;
-    color: #868f96;    
-    border: 1px solid #868f96;
+    color: #868f96;  
+    border-color: currentColor;  
 }
 
 /* MAIN */ 
@@ -107,7 +109,7 @@ li {
     height: 15px;
     font-size: 11px;
     color: green;
-    border:1px solid green;
+    border:1px solid currentColor;
     border-radius: 50%;
     text-align: center;
 }
@@ -131,6 +133,7 @@ li {
     font-size: 9px;
     padding: 4px 6px 4px 6px;
     border-radius: 8px;
+    vertical-align: middle;
 }
 
 /*small boxes color*/
